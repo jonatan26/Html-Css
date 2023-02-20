@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+
+div{
+    display: inline-block;
+}
+
+.a{
+    color: brown;
+    background-color: blue;
+    height: 150px;
+    width: 150px;
+}
+.b{
+    color: aqua;
+    background-color: blueviolet;
+    height: 150px;
+    width: 150px;
+}
+.c{
+    color: blue;
+    background-color: bisque;
+    height: 150px;
+    width: 150px;
+
+
+}
+div:hover{
+    background-color: black;
+}

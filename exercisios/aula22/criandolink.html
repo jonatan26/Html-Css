@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personalizando links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            color:red;
+            text-decoration: none;
+        }
+        a:visited{
+            color: blueviolet;
+        }
+        a:hover{
+            color: black;
+            text-decoration: underline;
+        }
+        a:active{
+            color: yellow;
+        }
+        a::after{
+            content: '  [ link]';
+
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <h1>PERSONALIZANDO LINKS</h1>
+    <ul>
+        <li><a href="https://www.youtube.com/?gl=BR&hl=PT" target="_blank">canal youtube</a></li>
+        <li><a href="https://onepieceex.net/" target="_blank">onepiece</a></li>
+        <li><a href="https://www.facebook.com/"target="_blank">facebook</a></li>
+
+    </ul>
+    
+</body>
+</html>

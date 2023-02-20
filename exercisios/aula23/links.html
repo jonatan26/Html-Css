@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+        a {
+            text-align: center;
+            color:blue;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        a:visited{
+            color: rgb(22, 22, 102);
+        }
+        a:hover{
+            color: black;
+            text-decoration: underline;
+        }
+        a:active{   /*pseudo classe*/
+            color: brown;
+        }
+        a::before{ /*pseudo elemento*/
+            content: '⇒';
+        }
+        a::after{
+            content: '⇐ ';
+        }
+       
+    </style>
+</head>
+<body>
+    <h1>CRIANDO LINKS</h1>
+    <ul>
+        <li id="esp"><a href="https://www.youtube.com/" target="_blank" >ACESSE O YOUTUBE</a></li>
+        <li><a href="https://color.adobe.com/pt/create/color-wheel" target="_blank">ESCOLHA SUA PALETA DE CORES</a></li>
+        <li><a href="https://www.pexels.com/pt-br/" target="_blank">IMAGENS AQUI</a></li>
+        <li><a href="https://www.google.com/search?q=COMANDO+HTML+PARA+ABRIR+SITE+EM+OUTRA+ABA&oq=COMANDO+HTML+PARA+ABRIR+SITE+EM+OUTRA+ABA&aqs=chrome..69i57j33i160.10763j0j15&sourceid=chrome&ie=UTF-8" target="_blank">GOOGLE</a></li>
+    </ul>
+    
+</body>
+</html>
